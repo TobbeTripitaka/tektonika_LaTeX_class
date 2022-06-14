@@ -1,2 +1,7 @@
-# tektonika_LaTeX_class
-Developing a LaTeX class to work for papers prepared for Tektonika. 
+# Tektonika LaTeX class
+
+---
+
+A LaTeX class to work on papers prepared for Tektonika, based on the provided template. 
+
+This class has not been approved by the Tektonika editorial team and is under development. 
