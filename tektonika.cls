@@ -90,7 +90,7 @@
 \fancypagestyle{firststyle}
 {
    \fancyhf{}
-   \fancyhead{ \includesvg[width=\textwidth]{article_banner.svg}}
+   \fancyhead{ \includegraphics[width=\textwidth]{article_banner}}
    \renewcommand{\footrulewidth}{0.4pt}
    \rfoot{\thepage~of \pageref*{LastPage}}
    \lfoot{\small{\journal, \vol\\\doi}}
@@ -104,11 +104,14 @@
 {\raggedright 
 \begin{center}
 \vspace*{1ex} 
-{\LARGE \Title}\\[2ex] 
+{\LARGE \textbf{ \Title}}\\[2ex] 
 {\large \AllAuthors}\\[1ex] 
-{\Affiliation}\\
+{\normalsize \Affiliation}\\[2ex]
+
+
 {\CorrEmail}\\[3ex] 
-\end{center}}} 
+\end{center}}
+} 
 \makeatother
 
 % Format Abstract
